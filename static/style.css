@@ -1,3 +1,86 @@
-h1 {
-	background-color: red;
+*{
+	margin: 0%;
+/*	outline: 1px solid black;*/
+}
+
+#nav_bar ul li a{
+	background-color: black;
+	color: white;
+}
+#title_segment {
+	padding: 10%;
+	margin-top: 40%;
+	color: white;
+	background: rgba(128,128,128,0.9);
+	border-radius: 10%;
+	margin-bottom: 10%;
+}
+
+#container {
+	background-image: url("austin_profile_img.jpg");
+	background-size: 110%;
+	background-repeat: no-repeat;
+}
+
+#about_me {
+	max-height:200px;
+	background-color:grey;
+	color: white;
+	overflow:scroll;
+}
+
+#skills div ul li{
+	text-align: left;
+	list-style: none;
+}
+
+#skills div h3{
+	text-align: left;
+}
+
+.tech_logo {
+	width: 80%;
+	height: auto;
+	margin-top: 15%; 
+	margin-bottom:15%;
+}
+
+.second_row_logo {
+	width: 100%;
+	height: auto;
+	margin-top: 15%; 
+	margin-bottom:15%;
+}
+
+.logo .logohover {
+    visibility: hidden;
+    width: 100px;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: grey;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    left: 30%;
+    top: 30%;
+}
+
+.logo:hover .logohover {
+    visibility: visible;
+}
+
+.row_bar{
+	margin-top: 5%;
+	padding-bottom:2%;
+	margin-bottom: 5%;
+}
+
+.contact-img img {
+	width: 60%;
+	height: auto;
 }
