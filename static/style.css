@@ -3,24 +3,34 @@
 /*	outline: 1px solid black;*/
 }
 
+#nav_bar ul li{
+		background-color: black;
+		color: white;
+		display:inline-block;
+		list-style-type: none;
+}
+
 #nav_bar ul li a{
 	background-color: black;
 	color: white;
 }
+
 #title_segment {
-	padding: 10%;
+	padding: 5%;
 	margin-top: 40%;
 	color: white;
 	background: rgba(128,128,128,0.9);
 	border-radius: 10%;
-	margin-bottom: 10%;
+	margin-bottom: 5%;
+	
 }
 
-#container {
+#title_div {
 	background-image: url("austin_profile_img.jpg");
-	background-size: 110%;
+	background-size: 100%;
 	background-repeat: no-repeat;
 }
+
 
 #about_me {
 	max-height:200px;
